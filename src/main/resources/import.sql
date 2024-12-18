@@ -1,2 +1,2 @@
-INSERT INTO `user` (`id`, `name`, `email`) VALUES (null, 'alex', 'alex@gmail.com');
-INSERT INTO `user` (`id`, `name`, `email`) VALUES (null, 'bruno', 'bruno@gmail.com');
+INSERT INTO tb_user (name, email) VALUES ('alex', 'alex@gmail.com');
+INSERT INTO tb_user (name, email) VALUES( 'bruno', 'bruno@gmail.com');

@@ -8,8 +8,6 @@ import lombok.Setter;
 
 @Entity
 @Table(name = "secret_friend")
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class SecretFriend {
@@ -24,5 +22,27 @@ public class SecretFriend {
     @ManyToOne
     private User friend;
 
+    public Long getId() {
+        return id;
+    }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public User getParticipant() {
+        return participant;
+    }
+
+    public void setParticipant(User participant) {
+        this.participant = participant;
+    }
+
+    public User getFriend() {
+        return friend;
+    }
+
+    public void setFriend(User friend) {
+        this.friend = friend;
+    }
 }
