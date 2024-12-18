@@ -6,16 +6,14 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
-
 > Este é um sistema de sorteio de Amigo Secreto desenvolvido em Java usando Spring Boot, com base no padrão arquitetural DDD (Domain-Driven Design). Ele permite que os participantes sejam cadastrados e sorteados de forma aleatória, garantindo que ninguém seja seu próprio amigo secreto.
 
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
-- [ ] Implementar DTOs para encapsulamento de dados nas APIs.
-- [ ] Concluir todos services e controllers
+- [x] Implementar DTOs para encapsulamento de dados nas APIs.
+- [x] Concluir todos services e controllers
 - [ ] Adicionar o Spring Security para autenticação e autorização.
 - [ ] Serviço de envio de e-mails com notificações dos resultados do sorteio.
 - [ ] Desenvolver uma interface gráfica ou integração com um frontend.
