@@ -1,4 +1,4 @@
-# Nome do projeto
+# SecretFriend
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
