@@ -14,10 +14,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Implementar DTOs para encapsulamento de dados nas APIs.
 - [x] Concluir todos services e controllers
-- [ ] Adicionar o Spring Security para autenticação e autorização.
 - [ ] Serviço de envio de e-mails com notificações dos resultados do sorteio.
 - [ ] Desenvolver uma interface gráfica ou integração com um frontend.
-- [ ] Permitir exportar o resultado do sorteio em PDF ou CSV.
 
 ## 💻 Pré-requisitos
 
@@ -45,13 +43,26 @@ git clone https://github.com/seu-usuario/amigo-secreto.git
 cd amigo-secreto
 ```
 
-## ☕ Usando <SecretFriend> (AINDA INCOMPLETO)
+## ☕ Usando <SecretFriend>
 
 Para usar <SecretFriend>, siga estas etapas:
 Listar Usuários
 
 	•	Endpoint: GET /users
 	•	Descrição: Retorna todos os participantes cadastrados.
+
+ Inserir Participantes
+ 
+ 	•	Endpoint: POST /users
+	•	Body: 
+ 	{
+   		 "name": "Ygor",
+   		 "email": "ygor@gmail.com"
+	}
+ Realizar Sorteio
+ 
+ 	•	Endpoint: POST /secret-friend
+	•	Descrição: Retorna o sorteio com cada participante com seu amigo secreto
 
 
 Console do H2
